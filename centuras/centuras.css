@@ -1,0 +1,531 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #header1 {
+    background-color: rgb(3, 144, 245);
+    border: 2px solid black;
+    height: 150px;
+  }
+  #writeup {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  i {
+    color: blue;
+    margin-left: 20px;
+    margin-right: 100px;
+    fill-opacity: 50%;
+  }
+  
+  #search {
+    font-size: 20px;
+    width: 150px;
+    background-color: greenyellow;
+    border: 0cap;
+  }
+  #header2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #left-side {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: greenyellow;
+  }
+  #right-side {
+    border: 1px solid black;
+    width: 1220px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(25, 25, 98);
+    color: white;
+    float: right;
+  }
+  li {
+    display: inline;
+    padding-right: 15px;
+    padding-top: px;
+  }
+  a :hover {
+    color: orange;
+  }
+  
+  #header3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #middle {
+    width: 800px;
+    margin-left: 10px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+  }
+  #searchbar {
+    background-color: rgb(25, 25, 98);
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  #searchbar :hover {
+    background-color: greenyellow;
+  }
+  #iclass {
+    font-size: 40px;
+  
+    width: 40px;
+    border-radius: 50px;
+    padding: 20px;
+    align-content: center;
+  }
+  #content1 {
+    background-image: url(https://www.centura.org/sites/default/files/styles/homepage_hero/public/2020-06/Cath-Lab-Team-1.jpg);
+  
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    display: block;
+    justify-content: space-evenly;
+  }
+  
+  #writeup1 {
+    font-size: 40px;
+    width: 800px;
+    color: white;
+    border-radius: 20px;
+  }
+  #sub-content1 {
+    width: 1200px;
+    height: 250px;
+    margin: auto;
+    border: 2px solid white;
+    display: flex;
+    border-radius: 20px;
+  }
+  #sub1 {
+    font-size: 26px;
+    border: 2px solid white;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    text-align: start;
+    background-color: rgb(25, 25, 98);
+    color: white;
+  }
+  #search1 {
+    width: 400px;
+    font-size: 15px;
+    height: 30px;
+    border: 1px;
+    background-color: rgb(25, 25, 98);
+    color: white;
+  }
+  #sub-content2 {
+    background-color: hsl(0, 0%, 100%, 0.9);
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    border-bottom: 2px solid greenyellow;
+  }
+  #SUB2 {
+    font-size: 35px;
+    border: 2px solid green;
+    width: 60px;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 0%;
+    margin: auto;
+  }
+  #sub11 {
+    width: 200px;
+    margin: 40px 0px 20px 10px;
+    text-align: center;
+  }
+  #sub-content3 {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+  }
+  #sub3 {
+    width: 400px;
+  
+    height: 57px;
+    background-color: rgb(25, 25, 98);
+  }
+  #sub4 {
+    width: 800px;
+    text-align: center;
+    background-color: rgb(184, 176, 176, 0.9);
+  }
+  #container2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  #container2img {
+    width: 300px;
+    margin: 10px;
+  }
+  #writeupcon2 {
+    width: 550px;
+    text-align: start;
+  }
+  #About {
+    width: 320px;
+    height: 40px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.933);
+    display: flex;
+    justify-content: space-between;
+  }
+  #container3 {
+    background-color: rgb(25, 25, 98, 04);
+    display: flex;
+    justify-content: space-between;
+  }
+  #con3write {
+    width: 400px;
+   
+    font-size: 35px;
+    margin: 10px;
+    color: white;
+  }
+  #subcon1 {
+    width: 450px;
+    margin: 40px;
+  }
+  #subcon3 {
+    display: flex;
+    width: 650px;
+    font-size: 15px;
+    font-family: Adamina;
+    margin: 10px 5px 25px 10px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+  }
+  #subcon4 {
+    display: flex;
+    width: 650px;
+    font-size: 25px;
+    margin: 10px 5px 25px 10px;
+    text-align: center;
+    color: white;
+  }
+  #container3sub2 {
+    width: 700px;
+  
+    margin: 110px 25px 30px 2px;
+  }
+  #con3write2 {
+    width: 660px;
+    color: rgba(255, 255, 255, 0.699);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 15px;
+  }
+  #con3sub1 {
+    display: flex;
+    width: 270px;
+    border: 1px solid rgba(255, 255, 255, 0.714);
+    border-radius: 15px;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+  #icon {
+    height: 40px;
+    width: 50px;
+    border-radius: 40px;
+    margin: auto;
+    padding-right: 10px;
+    text-align: center;
+    border-color: greenyellow;
+  }
+  #subtopic {
+    font-size: 20px;
+    line-height: 5px;
+    margin: auto;
+  }
+  #icon2 {
+    height: 40px;
+    width: 50px;
+    border-radius: 40px;
+    margin: auto;
+    padding-right: 10px;
+    text-align: center;
+    border-color: greenyellow;
+  }
+  #con3write3 {
+    width: 660px;
+    color: rgba(255, 255, 255, 0.699);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin: 15px;
+  }
+  #con3sub2 {
+    display: flex;
+    width: 270px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.714);
+    border-radius: 10px;
+    justify-content: space-evenly;
+  }
+  #con3sub3 {
+    display: flex;
+    height: 70px;
+    width: 610px;
+    border: 1px solid rgba(255, 255, 255, 0.714);
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.608);
+    justify-content: center;
+    font-family: "Amiko";
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+  }
+  #container4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(6, 59, 100, 0.933);
+    color: white;
+  }
+  #con4sub1 {
+    width: 700px;
+    padding: 10px;
+    font-family: "Alegreya Sans";
+  }
+  #con4subwrite {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+  }
+  #con4sub1write {
+    margin: auto;
+  }
+  button {
+    font-size: 5px;
+  }
+  #con4downsub {
+    display: flex;
+    color: black;
+    font: 10px;
+    width: fit-content;
+    margin: 10px 2px 10px 0px;
+  }
+  #container5 {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    width: 650px;
+    color: rgba(6, 59, 100, 0.97);
+    font-family: "Asap";
+  }
+  #sub1con6 {
+    width: 250px;
+  
+    text-align: center;
+    line-height: 7px;
+    color: rgba(6, 59, 100, 0.97);
+    font-size: 20px;
+  }
+  #con6icon1 {
+    border: 2px solid green;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 100px;
+  }
+  #container6 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    height: 340px;
+  }
+  #sub2con6 {
+    width: 250px;
+    text-align: center;
+    line-height: 7px;
+    color: rgba(6, 59, 100, 0.97);
+    font-size: 20px;
+  }
+  #container7 {
+    height: 700px;
+    display: flex;
+    margin: auto;
+  }
+  #con7write {
+    width: 450px;
+    height: 260px;
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: "Actor";
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 740px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.855);
+  }
+  #con7img {
+    position: absolute;
+    left: 0px;
+    top: 3300px;
+    z-index: 1;
+  }
+  #container8 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #con8write {
+    width: 500px;
+    height: 500px;
+    font-size: 23px;
+    line-height: 27px;
+    padding: 30px;
+    font-family: "Actor";
+  }
+  #container9 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 98);
+    color: white;
+    height: 500px;
+  }
+  #con9 {
+    display: flex;
+    border-radius: 40px 60px 0px 0px;
+    clip-path: polygon(0% -190%, 0% 100%, 100% 100%);
+  }
+  #con9write {
+    width: 500px;
+    font-size: 20px;
+    border: 1px solid white;
+    margin: auto;
+  }
+  #About2 {
+    width: 320px;
+    height: 40px;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+  }
+  #con10sub1 {
+    width: 330px;
+    font-size: 18px;
+    border: 1px solid rgba(161, 157, 157, 0.992);
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 525px;
+    
+  }
+  #con10sub1:hover {
+    box-shadow: 1px 1px 5px;
+  }
+  #write10 {
+    font-size: 20px;
+  }
+  #con10write {
+    padding: 10px;
+  }
+  #readmore {
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    padding: 10px;
+    line-height: 5px;
+    margin-top: 2px;
+  }
+  #container10 {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 20px;
+    margin: auto;
+  }
+  #sub1con11 {
+    width: 550px;
+    border: 0.7px solid;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px;
+  }
+  #write1con11 {
+    margin: 5px;
+    width: 170px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(36, 36, 146, 0.9);
+  }
+  #write2con11 {
+    margin: 5px;
+    width: 420px;
+    font-size: 20px;
+    color: rgb(36, 36, 146, 0.98);
+  }
+  #container11 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  #container12 {
+    background-color: rgb(0, 35, 70);
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    color: white;
+    padding: 10px;
+  }
+  #sub1con12 {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  footer {
+    background-color: rgb(4, 54, 104);
+  }
+  #sub1foot {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #sub-sub-1foot {
+    width: 200px;
+    font-size: 16px;
+  }
+  #sub2subfoot {
+    display: block;
+    justify-content: end;
+    color: white;
+  }
+  
